@@ -1,5 +1,5 @@
 publishDir = "public"
-baseURL = "//frichet.github.io/michel"
+baseURL = "https://frichet.github.io/michel"
 languageCode = "fr-fr"
 title = "Michel Frichet"
 theme = "ananke"
