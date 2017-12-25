@@ -18,4 +18,4 @@ tags: ["Pontoise"]
 
 {{< img src="images/14-juillet.jpg" title="14 Juillet" >}}
 
-{{< img title="Victor"title="Victor" >}}
+{{< img title="images/victor.jpg" title="Victor" >}}
