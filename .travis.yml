@@ -21,39 +21,36 @@ branches:
 env:
   global:
     - DEP_VERSION="0.3.2"
-    # - GIT_NAME="Deployer"
-    # - GIT_EMAIL="deployer@frichet.org"
-    # - SOURCE_DIR="public"
+    - GIT_NAME="Deployer"
+    - GIT_EMAIL="deployer@frichet.org"
+    - SOURCE_DIR="public"
     # - DEPLOY_BRANCH="source"
 
 cache:
   directories:
-    # - $GOPATH/src
-    - $GOPATH/pkg/dep
     - $GOPATH/pkg/hugo
 
-before_install:
-  - ls -la $GOPATH/src
-  - ls -la $GOPATH/pkg
-  # Download the binary to bin folder in $GOPATH
-  - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
-  # Make the binary executable
-  - chmod +x $GOPATH/bin/dep
+# before_install:
+#   # Download the binary to bin folder in $GOPATH
+#   - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
+#   # Make the binary executable
+#   - chmod +x $GOPATH/bin/dep
+#   # OR - go get -u -v github.com/golang/dep/cmd/dep
 
 install:
-  - dep ensure -vendor-only
-  - go install github.com/frichet/michel/vendor/github.com/spf13/hugo
-  - ls -la $GOPATH/src
-  - ls -la $GOPATH/pkg
+  # - dep ensure -vendor-only
+  # - go install github.com/frichet/michel/vendor/github.com/gohugoio/hugo
+  - go get -u -v -d github.com/gohugoio/hugo
 
 script:
-  # # Clean and don't fail
-  # - rm -rf public || exit 0
+  - echo $SOURCE_DIR
+  # Clean and don't fail
+  - rm -rf $SOURCE_DIR || exit 0
   # Build the website
-  - hugo # -d public
+  - hugo -d $SOURCE_DIR
 
 after_success:
-  - echo "michel.frichet.org" > ./public/CNAME
+  - echo "michel.frichet.org" > ./$SOURCE_DIR/CNAME
   # - ./scripts/deploy.sh
 
 deploy:
