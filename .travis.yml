@@ -28,9 +28,9 @@ env:
 
 cache:
   directories:
-    - $GOPATH/src
-    - $GOPATH/pkg
-    # - $GOPATH/pkg/dep
+    # - $GOPATH/src
+    - $GOPATH/pkg/dep
+    - $GOPATH/pkg/hugo
 
 before_install:
   # Download the binary to bin folder in $GOPATH
