@@ -23,25 +23,22 @@ env:
     - GIT_NAME="Deployer"
     - GIT_EMAIL="deployer@frichet.org"
     - SOURCE_DIR="public"
-    # - DEPLOY_BRANCH="source"
 
 cache:
   directories:
     - $GOPATH/pkg/hugo
 
 install:
-  - go get -u -v -d github.com/gohugoio/hugo
+  - go get github.com/gohugoio/hugo
 
 script:
-  - echo $SOURCE_DIR
   # Clean and don't fail
   - rm -rf $SOURCE_DIR || exit 0
   # Build the website
-  - hugo -d $SOURCE_DIR
+  - hugo # -d $SOURCE_DIR
 
 after_success:
   - echo "michel.frichet.org" > ./$SOURCE_DIR/CNAME
-  # - ./scripts/deploy.sh
 
 deploy:
   provider: pages
