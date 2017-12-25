@@ -2,7 +2,6 @@
 addons:
   apt:
     packages:
-      # - golang
       - python-pygments
 
 # language: go
@@ -26,15 +25,13 @@ env:
     - GIT_EMAIL="deployer@frichet.org"
     - SOURCE_DIR="public"
 
-# cache:
-#   directories:
-#     - $GOPATH/src
-#     - $GOPATH/pkg
-#     # - $GOPATH/pkg/hugo
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
 
 before_install:
-  - which go
-  - echo $GOPATH
+  - go version
 
 install:
   - go get github.com/gohugoio/hugo
