@@ -38,6 +38,12 @@ Build final public folder:
 yarn prod
 ```
 
+Manually deploy to `gh-pages`:
+
+```shell
+scripts/gh-pages.sh
+```
+
 ### Send changes to upstream
 
 ```shell
