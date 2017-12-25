@@ -29,10 +29,9 @@ install:
   # # Clean and don't fail
   # - rm -rf public || exit 0
 
-# Build the website (gh-pages.sh)
-script: hugo # -d public
-
-after_success:
+# Build the website (see gh-pages.sh)
+script:
+  - hugo # -d public
   - echo michel.frichet.org >> public/CNAME
 
 deploy:
