@@ -36,37 +36,6 @@ enableRobotsTXT = true
   # body_classes = "avenir bg-near-white"
   read_more_copy = 'Voir plus'
 
-# [Languages]
-#   [Languages.en]
-#     weight = 1
-#     title = "English"
-#   [Languages.en.blackfriday]
-#     angledQuotes = false
-
-#   [Languages.fr]
-#     weight = 2
-#     title = "Français"
-#   [Languages.fr.Taxonomies]
-#     plaque = "plaques"
-
-[params.navigation]
-help  = "Aide"
-
-[Languages.fr]
-# title = "Mon blog"
-# weight = 1
-# [Languages.fr.params]
-# linkedin = "lien-francais"
-
-# [Languages]
-# [Languages.en]
-# # title = "My blog"
-# # weight = 2
-# # [Languages.en.params]
-# # linkedin = "english-link"
-# [Languages.fr.navigation]
-# help  = "Help"
-
 [[menu.main]]
   identifier = "collection"
   name = "Collections"
@@ -92,3 +61,29 @@ help  = "Aide"
   # pre = "<i class='fa fa-envelope'></i>"
   weight = 0
   url = "/contact/"
+
+# [params.navigation]
+# about  = "À propos"
+
+# [Languages]
+
+#   [Languages.fr]
+#     weight = 1
+#     title = "Français"
+#   # [Languages.fr.params]
+#   #   linkedin = "lien-francais"
+#   [Languages.fr.Taxonomies]
+#     collection = "collections"
+#     projet = "projets"
+#   [Languages.fr.navigation]
+#     help  = "Help"
+
+#   [Languages.en]
+#     weight = 2
+#     title = "English"
+#   # [Languages.en.params]
+#   #   linkedin = "english-link"
+#   [Languages.en.blackfriday]
+#     angledQuotes = false
+#   [Languages.en.navigation]
+#     help  = "Help"
