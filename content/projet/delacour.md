@@ -8,6 +8,6 @@ featured_image: "images/delacour.jpg"
 # draft: true
 ---
 
-![Delacour]({{ "/images/delacour.jpg" | relURL }})
+![Delacour]({{ "images/delacour.jpg" | relURL }})
 
 En construction
