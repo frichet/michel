@@ -4,3 +4,8 @@
 
 * [Hugo](https://gohugo.io/) Website Generator
 * [Ananke](https://github.com/budparr/gohugo-theme-ananke) Theme
+
+---
+
+* [content](tree/master/content)
+* [images](tree/master/static/images)
