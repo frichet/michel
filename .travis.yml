@@ -14,9 +14,9 @@ sudo: false
 git:
   depth: 10
 
-# branches:
-#   only:
-#     - master
+branches:
+  only:
+    - master
 
 # env:
 #   global:
@@ -30,6 +30,7 @@ cache:
     - $GOPATH/pkg
 
 install:
+  # -u -v
   - go get github.com/spf13/hugo
   # # Clean and don't fail
   # - rm -rf public || exit 0
