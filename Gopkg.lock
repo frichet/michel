@@ -74,7 +74,7 @@
 
 [[projects]]
   name = "github.com/gohugoio/hugo"
-  packages = ["bufferpool","cache","commands","common/types","compare","config","create","deps","docshelper","helpers","hugofs","hugolib","i18n","livereload","media","metrics","output","parser","related","releaser","source","tpl","tpl/cast","tpl/collections","tpl/compare","tpl/crypto","tpl/data","tpl/encoding","tpl/fmt","tpl/images","tpl/inflect","tpl/internal","tpl/lang","tpl/math","tpl/os","tpl/partials","tpl/safe","tpl/strings","tpl/time","tpl/tplimpl","tpl/transform","tpl/urls","transform","utils","watcher"]
+  packages = [".","bufferpool","cache","commands","common/types","compare","config","create","deps","docshelper","helpers","hugofs","hugolib","i18n","livereload","media","metrics","output","parser","related","releaser","source","tpl","tpl/cast","tpl/collections","tpl/compare","tpl/crypto","tpl/data","tpl/encoding","tpl/fmt","tpl/images","tpl/inflect","tpl/internal","tpl/lang","tpl/math","tpl/os","tpl/partials","tpl/safe","tpl/strings","tpl/time","tpl/tplimpl","tpl/transform","tpl/urls","transform","utils","watcher"]
   revision = "c1c04d74a0b2b061857350e35720c9dde99f4fac"
   version = "v0.31.1"
 
@@ -205,12 +205,6 @@
   revision = "12a01e648f05a938100a26858d2d59a120307a18"
 
 [[projects]]
-  name = "github.com/spf13/hugo"
-  packages = ["."]
-  revision = "c1c04d74a0b2b061857350e35720c9dde99f4fac"
-  version = "v0.31.1"
-
-[[projects]]
   branch = "master"
   name = "github.com/spf13/jwalterweatherman"
   packages = ["."]
@@ -273,6 +267,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6f8cdb82f1b11a108cf1b564798d694658dba9c9579c79cd08996a936b3316f0"
+  inputs-digest = "abc0e89b995deeee1b6eff7a94bd6d90bc411d787d3950bae95d2a7e482eddae"
   solver-name = "gps-cdcl"
   solver-version = 1

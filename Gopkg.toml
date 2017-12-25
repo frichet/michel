@@ -22,5 +22,5 @@
 
 
 [[constraint]]
-  name = "github.com/spf13/hugo"
+  name = "github.com/gohugoio/hugo"
   version = "0.31.1"
