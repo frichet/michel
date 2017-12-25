@@ -15,8 +15,10 @@ install:
 install:
   - go get github.com/spf13/hugo
   # Clean and don't fail
-  #- rm -rf public || exit 0
-  - ./gh-pages.sh
+  - rm -rf public || exit 0
+  - hugo # -d public
+  - echo michel.frichet.org >> CNAME
+  # - ./gh-pages.sh
 
 deploy:
   provider: pages
