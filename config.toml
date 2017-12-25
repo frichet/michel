@@ -33,6 +33,7 @@ enableRobotsTXT = true
   featured_image = "/images/featured.jpg"
   # recent_posts_number = 10
   body_classes = "avenir bg-near-white"
+  read_more_copy = 'Voir plus'
 
 # [Languages]
 #   [Languages.en]
