@@ -1,10 +1,17 @@
 ---
 title: "Contact"
 description: "Envoyez un message"
-# type: page
-# menu:
-#   main: {}
-draft: true
+# featured_image: "images/featured.jpg"
+type: page
 ---
 
-{{< form-contact action="https://example.com"  >}}
+{{< card-info
+phone="06 23 45 67 89"
+email="michel@frichet.org"
+address="39 rue Lecharpentier, 95300 Pontoise"
+
+> }}
+
+<br>
+
+{{< form-contact action="https://formspree.io/michel@frichet.org" >}}
