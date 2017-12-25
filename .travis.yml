@@ -1,13 +1,7 @@
-# Install the apt prerequisites
-addons:
-  apt:
-    packages:
-      - python-pygments
+language: go
 
-# language: go
-
-# go:
-#   - master
+go:
+  - 1.8
 
 sudo: false
 
@@ -27,11 +21,8 @@ env:
 
 cache:
   directories:
-    - $GOPATH/src
-    - $GOPATH/pkg
-
-before_install:
-  - go version
+    - $GOPATH/src/github.com/gohugoio
+    - $GOPATH/pkg/hugo
 
 install:
   - go get github.com/gohugoio/hugo
