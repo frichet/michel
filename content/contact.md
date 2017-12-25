@@ -1,10 +1,17 @@
 ---
 title: "Contact"
 description: "Envoyez un message"
-# type: page
-# menu:
-#   main: {}
-draft: true
+# featured_image: "images/featured.jpg"
+type: page
 ---
 
-{{< form-contact action="https://example.com"  >}}
+{{< card-info
+phone=""
+email="michel@frichet.org"
+address="Pontoise"
+
+> }}
+
+<br>
+
+{{< form-contact action="https://formspree.io/michel@frichet.org" >}}
