@@ -1,7 +1,8 @@
-# michel.frichet.org
+# [michel.frichet.org](https://michel.frichet.org)
 
 [![Build Status](https://travis-ci.org/frichet/michel.svg?branch=master)](https://travis-ci.org/frichet/michel)
 
-* [Hugo](https://gohugo.io/)
-* [Hugo Docs](https://gohugo.io/documentation/)
-* [Ananke theme](https://github.com/budparr/gohugo-theme-ananke)
+* [Hugo](https://gohugo.io/) Website Generator
+* [Ananke](https://github.com/budparr/gohugo-theme-ananke) Theme
+
+* [Blackfriday](https://github.com/russross/blackfriday) Markdown Processor
