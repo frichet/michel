@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bienvenue on Michel Frichet</title>
-    <link>https//frichet.github.io/michel/</link>
+    <link>//frichet.github.io/michel/</link>
     <description>Recent content in Bienvenue on Michel Frichet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https//frichet.github.io/michel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//frichet.github.io/michel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Le tableau du mois</title>
-      <link>https//frichet.github.io/michel/le-tableau-du-mois/</link>
+      <link>//frichet.github.io/michel/le-tableau-du-mois/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0100</pubDate>
       
-      <guid>https//frichet.github.io/michel/le-tableau-du-mois/</guid>
+      <guid>//frichet.github.io/michel/le-tableau-du-mois/</guid>
       <description>La Cour</description>
     </item>
     
     <item>
       <title>Œuvres récentes</title>
-      <link>https//frichet.github.io/michel/collection/oeuvres-recentes/</link>
+      <link>//frichet.github.io/michel/collection/oeuvres-recentes/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>https//frichet.github.io/michel/collection/oeuvres-recentes/</guid>
+      <guid>//frichet.github.io/michel/collection/oeuvres-recentes/</guid>
       <description>Balades
 Les Toits à Pontoise
 Les Toits
@@ -36,20 +36,20 @@ Victor</description>
     
     <item>
       <title>Période figurative</title>
-      <link>https//frichet.github.io/michel/collection/periode-figurative/</link>
+      <link>//frichet.github.io/michel/collection/periode-figurative/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
-      <guid>https//frichet.github.io/michel/collection/periode-figurative/</guid>
+      <guid>//frichet.github.io/michel/collection/periode-figurative/</guid>
       <description>Le Bijou Bar à Conflans
 Les Étannets</description>
     </item>
     
     <item>
       <title>Aquarelles des années 90</title>
-      <link>https//frichet.github.io/michel/collection/aquarelles-des-annees-90/</link>
+      <link>//frichet.github.io/michel/collection/aquarelles-des-annees-90/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0100</pubDate>
       
-      <guid>https//frichet.github.io/michel/collection/aquarelles-des-annees-90/</guid>
+      <guid>//frichet.github.io/michel/collection/aquarelles-des-annees-90/</guid>
       <description>Lac de Neuchâtel
 La Tène
 Le Manoir, route à Hauterive
