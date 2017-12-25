@@ -48,3 +48,21 @@ enableRobotsTXT = true
 #     title = "Français"
 #   [Languages.fr.Taxonomies]
 #     plaque = "plaques"
+
+[params.navigation]
+help  = "Aide"
+
+[Languages.fr]
+# title = "Mon blog"
+# weight = 1
+# [Languages.fr.params]
+# linkedin = "lien-francais"
+
+# [Languages]
+# [Languages.en]
+# # title = "My blog"
+# # weight = 2
+# # [Languages.en.params]
+# # linkedin = "english-link"
+# [Languages.fr.navigation]
+# help  = "Help"
