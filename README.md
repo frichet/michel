@@ -7,5 +7,5 @@
 
 ---
 
-* [content](tree/master/content)
-* [images](tree/master/static/images)
+* [content](content)
+* [images](static/images)
