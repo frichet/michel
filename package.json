@@ -15,7 +15,7 @@
     "watch": "hugo --watch",
     "build": "hugo --baseURL",
     "prod": "yarn run production",
-    "production": "rm -r public && hugo -d public",
+    "production": "rm -r docs; hugo -d docs",
     "precommit": "lint-staged"
   },
   "lint-staged": {

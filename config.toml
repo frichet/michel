@@ -1,4 +1,5 @@
-baseURL = "//frichet.org"
+publishDir = "docs"
+baseURL = "https//frichet.github.io/michel"
 languageCode = "fr-fr"
 title = "Michel Frichet"
 theme = "ananke"
@@ -20,7 +21,7 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  description = ""
+  description = "V2"
   facebook = ""
   # twitter = "https://twitter.com/GoHugoIO"
   instagram = ""
