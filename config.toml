@@ -1,4 +1,4 @@
-publishDir = "docs"
+publishDir = "public"
 baseURL = "//frichet.github.io/michel"
 languageCode = "fr-fr"
 title = "Michel Frichet"
