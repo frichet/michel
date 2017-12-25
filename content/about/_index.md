@@ -22,7 +22,9 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 > * Jacques Villon
 > * Sonia et Robert Delaunay, et bien d'autres...
 
-{{< figure src="/michel/images/michel-frichet.jpg" title="Michel Frichet" >}}
+<br>
+
+{{< img src="/images/michel-frichet.jpg" title="Michel Frichet" >}}
 
 > 1 rue Exemple
 > 75000 Paris
@@ -35,7 +37,7 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 
 > michel [at] example.com
 
-> ---
+<br>
 
 > ## Contact
 
