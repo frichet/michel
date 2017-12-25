@@ -6,6 +6,7 @@
   "author": "Guillaume Frichet <guillaume@frichet.org>",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "prettier": "^1.9.2"
   },
@@ -19,6 +20,9 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
