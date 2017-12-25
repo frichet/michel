@@ -20,7 +20,6 @@ branches:
 
 env:
   global:
-    - DEP_VERSION="0.3.2"
     - GIT_NAME="Deployer"
     - GIT_EMAIL="deployer@frichet.org"
     - SOURCE_DIR="public"
@@ -30,16 +29,7 @@ cache:
   directories:
     - $GOPATH/pkg/hugo
 
-# before_install:
-#   # Download the binary to bin folder in $GOPATH
-#   - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
-#   # Make the binary executable
-#   - chmod +x $GOPATH/bin/dep
-#   # OR - go get -u -v github.com/golang/dep/cmd/dep
-
 install:
-  # - dep ensure -vendor-only
-  # - go install github.com/frichet/michel/vendor/github.com/gohugoio/hugo
   - go get -u -v -d github.com/gohugoio/hugo
 
 script:
