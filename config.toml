@@ -1,12 +1,9 @@
-publishDir = "public"
-# baseURL = "https://frichet.github.io/michel"
 baseURL = "//michel.frichet.org"
 languageCode = "fr-fr"
 title = "Michel Frichet"
 theme = "ananke"
-# theme = "gohugo-theme-ananke"
 
-# themesDir = "../.."
+publishDir = "public"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "fr"
@@ -39,13 +36,13 @@ enableRobotsTXT = true
 [[menu.main]]
   identifier = "collection"
   name = "Collections"
-  weight = 1
+  weight = 2
   url = '/collection/'
 
 [[menu.main]]
   identifier = "projet"
   name = "Projets"
-  weight = 1
+  weight = 2
   url = '/projet/'
 
 [[menu.main]]
