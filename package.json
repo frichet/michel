@@ -10,9 +10,12 @@
     "prettier": "^1.9.2"
   },
   "scripts": {
-    "dev": "hugo server -D",
+    "dev": "yarn run development",
+    "development": "hugo server --buildDrafts --buildFuture --i18n-warnings",
     "watch": "hugo --watch",
-    "build": "hugo --baseURL ",
+    "build": "hugo --baseURL",
+    "prod": "yarn run production",
+    "production": "rm -r public && hugo -d public",
     "precommit": "lint-staged"
   },
   "lint-staged": {
