@@ -33,12 +33,10 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 
 > +33 6 23 45 67 89
 
-<!-- <a href="mailto:michel@example.com">michel@example.com</a> -->
-
-> michel [at] example.com
+> <!-- <a href="mailto:michel@frichet.org">michel@frichet.org</a> -->
 
 <br>
 
 > ## Contact
 
-> {{< form-contact action="https://example.com" >}}
+> {{< form-contact action="https://formspree.io/michel@frichet.org" >}}
