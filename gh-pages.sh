@@ -29,6 +29,7 @@ hugo
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (gh-pages.sh)"
 
-# echo yourdomainname.com >> CNAME
+# HitHub pages custom domain
+echo michel.frichet.org >> CNAME
 
 git push $upstream gh-pages
