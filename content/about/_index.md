@@ -16,11 +16,11 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 
 > Les artistes que j'apprécie particulièrement sont :
 
-> - Maria Héléna Da Silva
-> - Serge Poliakoff
-> - Nicolas De Staël
-> - Jacques Villon
-> - Sonia et Robert Delaunay, et bien d'autres...
+> * Maria Héléna Da Silva
+> * Serge Poliakoff
+> * Nicolas De Staël
+> * Jacques Villon
+> * Sonia et Robert Delaunay, et bien d'autres...
 
 {{< figure src="/images/michel-frichet.jpg" title="Michel Frichet" >}}
 
@@ -28,13 +28,15 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 > 75000 Paris
 
 <!-- <a href="tel:33623456789">+33 6 23 45 67 89</a> -->
+
 > +33 6 23 45 67 89
 
 <!-- <a href="mailto:michel@example.com">michel@example.com</a> -->
+
 > michel [at] example.com
 
 > ---
 
 > ## Contact
 
-> {{< form-contact action="https://example.com"  >}}
+> {{< form-contact action="https://example.com" >}}
