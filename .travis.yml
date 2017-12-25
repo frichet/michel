@@ -17,7 +17,7 @@ env:
   global:
     - GIT_NAME="Deployer"
     - GIT_EMAIL="deployer@frichet.org"
-    - SOURCE_DIR="public"
+    - PUBLISH_DIR="public"
 
 cache:
   directories:
@@ -29,12 +29,12 @@ install:
 
 script:
   # Clean and don't fail
-  - rm -rf $SOURCE_DIR || exit 0
+  - rm -rf $PUBLISH_DIR || exit 0
   # Build the website
-  - hugo # -d $SOURCE_DIR
+  - hugo # -d $PUBLISH_DIR
 
 after_success:
-  - echo "michel.frichet.org" > ./$SOURCE_DIR/CNAME
+  - echo "michel.frichet.org" > ./$PUBLISH_DIR/CNAME
 
 deploy:
   provider: pages
