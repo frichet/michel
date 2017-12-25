@@ -1,10 +1,9 @@
 #!/bin/sh
 
-DIR=$(dirname "$0")
+# DIR=$(dirname "$0")
 upstream=origin
 
 # cd "$DIR/.." || exit 1
-cd "$DIR" || exit
 
 if [ "$(git status -s)" ]
 then
