@@ -1,13 +1,14 @@
 # Install the apt prerequisites
-# addons:
-#   apt:
-#     packages:
-#       - python-pygments
+addons:
+  apt:
+    packages:
+      # - golang
+      - python-pygments
 
-language: go
+# language: go
 
-go:
-  - master
+# go:
+#   - master
 
 sudo: false
 
@@ -25,9 +26,15 @@ env:
     - GIT_EMAIL="deployer@frichet.org"
     - SOURCE_DIR="public"
 
-cache:
-  directories:
-    - $GOPATH/pkg/hugo
+# cache:
+#   directories:
+#     - $GOPATH/src
+#     - $GOPATH/pkg
+#     # - $GOPATH/pkg/hugo
+
+before_install:
+  - which go
+  - echo $GOPATH
 
 install:
   - go get github.com/gohugoio/hugo
