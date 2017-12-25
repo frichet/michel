@@ -4,5 +4,3 @@
 
 * [Hugo](https://gohugo.io/) Website Generator
 * [Ananke](https://github.com/budparr/gohugo-theme-ananke) Theme
-
-* [Blackfriday](https://github.com/russross/blackfriday) Markdown Processor
