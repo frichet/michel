@@ -8,9 +8,7 @@ type: page
 {{< card-info
 phone="06 23 45 67 89"
 email="michel@frichet.org"
-address="39 rue Lecharpentier, 95300 Pontoise"
-
-> }}
+address="39 rue Lecharpentier, 95300 Pontoise" >}}
 
 <br>
 
