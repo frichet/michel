@@ -1,2 +1,8 @@
+# Hugo output
 public
+
+# Yarn
 node_modules
+
+# Godep
+vendor
