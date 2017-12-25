@@ -24,12 +24,14 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo
+hugo # -d public
 
-echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (gh-pages.sh)"
+cd public || exit 1
 
 # HitHub pages custom domain
 echo michel.frichet.org >> CNAME
+
+echo "Updating gh-pages branch"
+git add --all && git commit -m "Publishing to gh-pages (gh-pages.sh)"
 
 git push $upstream gh-pages
