@@ -6,10 +6,10 @@ featured_image: "images/le-bijou-bar-a-conflans.jpg"
 tags: ["Conflans"]
 ---
 
-![Le Bijou Bar à Conflans](/images/le-bijou-bar-a-conflans.jpg)
+![Le Bijou Bar à Conflans]({{ "/images/le-bijou-bar-a-conflans.jpg" | relURL }})
 
 Le Bijou Bar à Conflans
 
-![Les Étannets](/images/les-etannets.jpg)
+![Les Étannets]({{ "/images/les-etannets.jpg" | relURL }})
 
 Les Étannets
