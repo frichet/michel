@@ -29,18 +29,18 @@ install:
 
 script:
   # Clean and don't fail
-  - rm -rf $PUBLISH_DIR || exit 0
+  - rm -rf "$PUBLISH_DIR" || exit 0
   # Build the website
-  - hugo # -d $PUBLISH_DIR
+  - hugo -d "$PUBLISH_DIR"
 
 after_success:
-  - echo "michel.frichet.org" > ./$PUBLISH_DIR/CNAME
+  - echo "michel.frichet.org" > "./$PUBLISH_DIR/CNAME"
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: public
+  local_dir: $PUBLISH_DIR
   # target_branch: gh-pages
   fqdn: michel.frichet.org
   email: deploy@frichet.org
