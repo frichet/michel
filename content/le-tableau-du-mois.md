@@ -5,6 +5,6 @@ image: "/images/la-cour.jpg"
 draft: false
 ---
 
-![La Cour](/images/la-cour.jpg)
+![La Cour]({{ "/images/la-cour.jpg" | relURL }})
 
 La Cour
