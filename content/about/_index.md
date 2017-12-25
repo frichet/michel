@@ -1,7 +1,7 @@
 ---
 title: "À propos"
 description: "Ma démarche artistique"
-featured_image: "images/_featured.jpg"
+featured_image: "images/featured.jpg"
 ---
 
 <center>
