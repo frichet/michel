@@ -36,19 +36,18 @@ enableRobotsTXT = true
 [[menu.main]]
   identifier = "collection"
   name = "Collections"
-  weight = 2
+  weight = -1
   url = '/collection/'
 
 [[menu.main]]
   identifier = "projet"
   name = "Projets"
-  weight = 2
+  weight = -1
   url = '/projet/'
 
 [[menu.main]]
   identifier = "a-propos"
   name = "À propos"
-  # pre = "<i class='fa fa-plus'></i>"
   weight = 1
   url = "/a-propos/"
 
@@ -56,7 +55,7 @@ enableRobotsTXT = true
   identifier = "contact"
   name = "Contact"
   # pre = "<i class='fa fa-envelope'></i>"
-  weight = 0
+  weight = 2
   url = "/contact/"
 
 # [params.navigation]
