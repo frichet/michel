@@ -17,7 +17,7 @@
     "build": "hugo --baseURL",
     "prod": "yarn run production",
     "production": "rm -r public; hugo -d public",
-    "publish": "./gh-pages.sh",
+    "deploy": "./gh-pages.sh",
     "precommit": "lint-staged"
   },
   "lint-staged": {
