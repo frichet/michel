@@ -20,25 +20,28 @@ branches:
 
 # env:
 #   global:
+#     - GIT_NAME="Deployer"
+#     - GIT_EMAIL="deployer@frichet.org"
 #     - SOURCE_DIR="public"
-#     - BUILD_BRANCH="source"
-#     - DEPLOY_BRANCH="master"
+#     - DEPLOY_BRANCH="source"
 
 cache:
   directories:
     - $GOPATH/src
     - $GOPATH/pkg
 
-install:
-  # -u -v
+before_script:
   - go get github.com/spf13/hugo
   # # Clean and don't fail
   # - rm -rf public || exit 0
 
-# Build the website (see gh-pages.sh)
+# Build the website (see scripts/gh-pages.sh)
 script:
   - hugo # -d public
-  - echo michel.frichet.org >> public/CNAME
+
+after_success:
+  - echo "michel.frichet.org" > ./public/CNAME
+  # - ./scripts/deploy.sh
 
 deploy:
   provider: pages
