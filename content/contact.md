@@ -8,9 +8,7 @@ type: page
 {{< card-info
 phone=""
 email="michel@frichet.org"
-address="Pontoise"
-
-> }}
+address="Pontoise" >}}
 
 <br>
 
