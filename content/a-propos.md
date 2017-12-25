@@ -29,4 +29,6 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 
 <br>
 
-> <a href="/contact"><i class="fa fa-envelope"></i> Entrer en contact</i></a>
+<!-- <a href="/contact"><i class="fa fa-envelope"></i> Entrer en contact</i></a> -->
+
+[Entrer en contact](/contact)
