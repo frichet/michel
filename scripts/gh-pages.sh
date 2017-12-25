@@ -22,7 +22,6 @@ rm -rf .git/worktrees/public/
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public $upstream/gh-pages
 
-ls -la public
 echo "Removing existing files"
 rm -rf public/*
 
@@ -35,6 +34,6 @@ cd public || exit 1
 echo michel.frichet.org >> CNAME
 
 echo "Updating gh-pages branch"
-git pull $upstream gh-pages
 git add --all && git commit -m "Publishing to gh-pages (gh-pages.sh)"
-git push $upstream gh-pages
+
+git push --force $upstream gh-pages
