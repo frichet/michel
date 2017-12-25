@@ -18,11 +18,12 @@
     "prod": "yarn run production",
     "production": "rm -r public; hugo -d public",
     "deploy": "./scripts/gh-pages.sh",
+    "prettier": "prettier --write",
     "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
-      "prettier --write",
+      "prettier",
       "git add"
     ]
   }
