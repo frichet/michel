@@ -30,7 +30,7 @@ enableRobotsTXT = true
   github = "https://github.com/frichet/michel"
   linkedin = "https://www.linkedin.com/in/michel-frichet-814593b/"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-gray"
+  # background_color_class = "bg-gray"
   featured_image = "/images/featured.jpg"
   # recent_posts_number = 10
   # body_classes = "avenir bg-near-white"
@@ -66,3 +66,29 @@ help  = "Aide"
 # # linkedin = "english-link"
 # [Languages.fr.navigation]
 # help  = "Help"
+
+[[menu.main]]
+  identifier = "collection"
+  name = "Collections"
+  weight = 1
+  url = '/collection/'
+
+[[menu.main]]
+  identifier = "projet"
+  name = "Projets"
+  weight = 1
+  url = '/projet/'
+
+[[menu.main]]
+  identifier = "a-propos"
+  name = "À propos"
+  # pre = "<i class='fa fa-plus'></i>"
+  weight = 1
+  url = "/a-propos/"
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  # pre = "<i class='fa fa-envelope'></i>"
+  weight = 0
+  url = "/contact/"

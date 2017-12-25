@@ -2,6 +2,7 @@
 title: "À propos"
 description: "Ma démarche artistique"
 featured_image: "images/featured.jpg"
+type: page
 ---
 
 <center>
@@ -26,17 +27,6 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 
 {{< img src="/images/michel-frichet.jpg" title="Michel Frichet" >}}
 
-> 1 rue Exemple
-> 75000 Paris
-
-<!-- <a href="tel:33623456789">+33 6 23 45 67 89</a> -->
-
-> +33 6 23 45 67 89
-
-> <!-- <a href="mailto:michel@frichet.org">michel@frichet.org</a> -->
-
 <br>
 
-> ## Contact
-
-> {{< form-contact action="https://formspree.io/michel@frichet.org" >}}
+> <a href="/contact"><i class="fa fa-envelope"></i> Entrer en contact</i></a>

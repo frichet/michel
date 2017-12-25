@@ -1,0 +1,14 @@
+<!-- card -->
+{{ if .Get "phone" }}<div style="margin-bottom: 2rem;">
+    <em style="opacity: 0.8">Numéro de téléphone</em>
+    <a href="tel:{{ .Get "phone" | replaceRE "\\s" "" }}" style="float: right;">{{ .Get "phone" }}</a>
+</div>{{ end }}
+{{ if .Get "email" }}<div style="margin-bottom: 2rem;">
+    <em style="opacity: 0.8">Adresse électronique</em>
+    <a href="mailto:{{ .Get "email" }}" style="float: right;">{{ .Get "email" }}</a>
+</div>{{ end }}
+{{ if .Get "address" }}<div style="margin-bottom: 2rem;">
+    <em style="opacity: 0.8">Adresse postale</em>
+    <address style="display: inline-block; font-style: normal; float: right;">{{ .Get "address" }}</address>
+</div>{{ end }}
+<!-- card -->
