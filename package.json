@@ -12,9 +12,10 @@
   "scripts": {
     "dev": "hugo server -D",
     "watch": "hugo --watch",
-    "build": "hugo --baseURL "
+    "build": "hugo --baseURL ",
+    "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,json,css,,md}": ["prettier --write", "git add"]
+    "*.{js,json,css,md}": ["prettier --write", "git add"]
   }
 }
