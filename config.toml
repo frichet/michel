@@ -1,0 +1,49 @@
+baseURL = "//frichet.org"
+languageCode = "fr-fr"
+title = "Michel Frichet"
+theme = "ananke"
+# theme = "gohugo-theme-ananke"
+
+# themesDir = "../.."
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "fr"
+SectionPagesMenu = "main"
+Paginate = 25
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = ""
+  facebook = ""
+  # twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-gray"
+  # featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  featured_image = "/images/_featured.jpg"
+  # recent_posts_number = 10
+
+  # body_classes = "avenir bg-near-white"
+
+# [Languages]
+#   [Languages.en]
+#     weight = 1
+#     title = "English"
+#   [Languages.en.blackfriday]
+#     angledQuotes = false
+
+#   [Languages.fr]
+#     weight = 2
+#     title = "Français"
+#   [Languages.fr.Taxonomies]
+#     plaque = "plaques"
