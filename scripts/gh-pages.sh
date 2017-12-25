@@ -34,6 +34,6 @@ cd public || exit 1
 echo michel.frichet.org >> CNAME
 
 echo "Updating gh-pages branch"
+git pull $upstream gh-pages
 git add --all && git commit -m "Publishing to gh-pages (gh-pages.sh)"
-
 git push $upstream gh-pages
