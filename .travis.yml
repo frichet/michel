@@ -39,7 +39,8 @@ before_install:
   - chmod +x $GOPATH/bin/dep
 
 install:
-  - dep ensure
+  - dep ensure -vendor-only
+  - go install github.com/frichet/michel/vendor/github.com/spf13/hugo
 
 script:
   # # Clean and don't fail
