@@ -5,6 +5,8 @@ description: "Envoyez un message"
 type: page
 ---
 
+<br>
+
 {{< card-info
 phone=""
 email="michel@frichet.org"
