@@ -7557,7 +7557,7 @@ pre {
   fill: #cd201f;
 }
 .github:hover {
-  fill: #6cc644;
+  fill: #eeeeee; /* 6cc644 */
 }
 .linkedin:hover {
   fill: #0077b5;
@@ -7568,6 +7568,7 @@ a {
   text-decoration: none;
 }
 
+/* Full width elements */
 article,
 table {
   width: 100%;
