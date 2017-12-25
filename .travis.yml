@@ -1,0 +1,26 @@
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don't fail
+install:
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - ./gh-pages.sh
+  # - binaries/hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  # target_branch: gh-pages
+  fqdn: michel.frichet.org
+  email: deploy@frichet.org
+  name: Deployer
+  on:
+    branch: master
