@@ -13,6 +13,7 @@ sudo: false
 
 git:
   depth: 10
+  submodules: true
 
 branches:
   only:

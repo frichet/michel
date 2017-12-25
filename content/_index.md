@@ -1,7 +1,8 @@
 ---
 title: "Michel Frichet"
 featured_image: "images/lac-de-neuchatel.jpg"
-# description: "www.frichetmichel.fr"
+description: "michel.frichet.org"
+# www.frichetmichel.fr
 ---
 
 Forme, couleur, matière et lumière sont indissociables.
