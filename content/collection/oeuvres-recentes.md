@@ -3,7 +3,7 @@ title: "Œuvres récentes"
 description: ""
 date: 2017-01-01T00:00:00+01:00
 featured_image: "images/les-toits-2.jpg"
-tags: ["Pontoise"]
+tags: [ "Pontoise" ]
 ---
 
 {{< img src="images/balades.jpg" title="Balades" >}}
