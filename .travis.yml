@@ -24,6 +24,11 @@ git:
 #     - BUILD_BRANCH="source"
 #     - DEPLOY_BRANCH="master"
 
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
+
 install:
   - go get github.com/spf13/hugo
   # # Clean and don't fail
