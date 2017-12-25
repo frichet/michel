@@ -2,24 +2,16 @@
 title: "Aquarelles des années 90"
 description: ""
 date: 1990-01-01T00:00:00+01:00
-featured_image: "images/lac-de-neuchatel.jpg"
+featured_image: "/images/lac-de-neuchatel.jpg"
 tags: ["Aquarelle", "Hauterive", "Neuchâtel"]
 ---
 
-![Lac de Neuchâtel]({{ "images/lac-de-neuchatel.jpg" | relURL }})
+{{< img src="/images/lac-de-neuchatel.jpg" title="Lac de Neuchâtel" >}}
 
-Lac de Neuchâtel
+{{< img src="/images/la-tene.jpg" title="La Tène" >}}
 
-![La Tène](/images/la-tene.jpg" | relURL }})
+{{< img src="/images/route-a-hauterive.jpg" title="Le Manoir, route à Hauterive" >}}
 
-La Tène
+{{< img src="/images/vignes-a-hauterive.jpg" title="Vignes à Hauterive" >}}
 
-![Le Manoir, route à Hauterive]({{ "images/route-a-hauterive.jpg" | relURL }})
-
-Le Manoir, route à Hauterive
-
-![Vignes à Hauterive]({{ "images/vignes-a-hauterive.jpg" | relURL }})
-
-Vignes à Hauterive
-
-![Vignes à Hauterive 2]({{ "images/vignes-a-hauterive-2.jpg" | relURL }})
+{{< img src="/images/vignes-a-hauterive-2.jpg" >}}

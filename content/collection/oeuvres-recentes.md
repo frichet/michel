@@ -6,28 +6,16 @@ featured_image: "images/les-toits-2.jpg"
 tags: ["Pontoise"]
 ---
 
-![Balades]({{ "images/balades.jpg" | relURL }})
+{{< img src="images/balades.jpg" title="Balades" >}}
 
-Balades
+{{< img src="images/les-toits-a-pontoise.jpg" title="Les Toits à Pontoise" >}}
 
-![Les Toits à Pontoise]({{ "images/les-toits-a-pontoise.jpg" | relURL }})
+{{< img src="images/les-toits.jpg" title="Les Toits" >}}
 
-Les Toits à Pontoise
+{{< img src="images/les-toits-2.jpg" >}}
 
-![Les Toits]({{ "images/les-toits.jpg" | relURL }})
+{{< img src="images/lucky.jpg" title="Lucky" >}}
 
-![Les Toits 2]({{ "images/les-toits-2.jpg" | relURL }})
+{{< img src="images/14-juillet.jpg" title="14 Juillet" >}}
 
-Les Toits
-
-![Lucky]({{ "images/lucky.jpg" | relURL }})
-
-Lucky
-
-![14 Juillet]({{ "images/14-juillet.jpg" | relURL }})
-
-14 Juillet
-
-![Victor]({{ "images/victor.jpg" | relURL }})
-
-Victor
+{{< img title="Victor"title="Victor" >}}
