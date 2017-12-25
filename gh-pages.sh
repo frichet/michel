@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -xe
+
 # DIR=$(dirname "$0")
 upstream=origin
 

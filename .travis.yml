@@ -1,17 +1,22 @@
 # Install the apt prerequisites
-addons:
-  apt:
-    packages:
-      - python-pygments
+# addons:
+#   apt:
+#     packages:
+#       - python-pygments
 
-# Clean and don't fail
+language: go
+
+go:
+  - master
+
 install:
-  - rm -rf public || exit 0
 
 # Build the website
-script:
+install:
+  - go get github.com/spf13/hugo
+  # Clean and don't fail
+  #- rm -rf public || exit 0
   - ./gh-pages.sh
-  # - binaries/hugo
 
 deploy:
   provider: pages
