@@ -18,25 +18,33 @@ branches:
   only:
     - master
 
-# env:
-#   global:
-#     - GIT_NAME="Deployer"
-#     - GIT_EMAIL="deployer@frichet.org"
-#     - SOURCE_DIR="public"
-#     - DEPLOY_BRANCH="source"
+env:
+  global:
+    - DEP_VERSION="0.3.2"
+    # - GIT_NAME="Deployer"
+    # - GIT_EMAIL="deployer@frichet.org"
+    # - SOURCE_DIR="public"
+    # - DEPLOY_BRANCH="source"
 
 cache:
   directories:
     - $GOPATH/src
     - $GOPATH/pkg
+    # - $GOPATH/pkg/dep
 
-before_script:
-  - go get github.com/spf13/hugo
+before_install:
+  # Download the binary to bin folder in $GOPATH
+  - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
+  # Make the binary executable
+  - chmod +x $GOPATH/bin/dep
+
+install:
+  - dep ensure
+
+script:
   # # Clean and don't fail
   # - rm -rf public || exit 0
-
-# Build the website (see scripts/gh-pages.sh)
-script:
+  # Build the website
   - hugo # -d public
 
 after_success:
