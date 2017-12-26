@@ -11,15 +11,14 @@
     "prettier": "^1.9.2"
   },
   "scripts": {
+    "deploy": "./scripts/gh-pages.sh",
     "dev": "yarn run development",
     "development": "hugo server --buildDrafts --buildFuture --i18n-warnings",
     "watch": "hugo --watch",
     "build": "hugo --baseURL",
     "prod": "yarn run production",
     "production": "rm -r public; hugo -d public",
-    "deploy": "./scripts/gh-pages.sh",
     "prettier": "prettier --write",
-    "watch": "parallelshell",
     "precommit": "lint-staged"
   },
   "lint-staged": {
