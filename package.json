@@ -19,6 +19,7 @@
     "production": "rm -r public; hugo -d public",
     "deploy": "./scripts/gh-pages.sh",
     "prettier": "prettier --write",
+    "watch": "parallelshell",
     "precommit": "lint-staged"
   },
   "lint-staged": {
