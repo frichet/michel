@@ -9,7 +9,11 @@ type: page
 Forme, couleur, matière et lumière sont indissociables.
 </center>
 
+<br>
+
 > ---
+
+<br>
 
 <center>
 J'explore les relations entre la ligne, la surface, le fond, la forme et la couleur.
