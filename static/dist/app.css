@@ -1,0 +1,15 @@
+/* Disable link text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Full width elements */
+article,
+table {
+  width: 100%;
+}
+
+/* Override default GitHub hover color (#6cc644) */
+.github:hover {
+  fill: #eeeeee;
+}
