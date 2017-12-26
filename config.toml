@@ -32,6 +32,7 @@ enableRobotsTXT = true
   # recent_posts_number = 10
   # body_classes = "avenir bg-near-white"
   read_more_copy = 'Voir plus'
+  custom_css = ['dist/app.css']
 
 [[menu.main]]
   identifier = "collection"
