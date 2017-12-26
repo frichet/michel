@@ -5,4 +5,6 @@ featured_image: "images/featured.jpg"
 type: page
 ---
 
+<br>
+
 {{< img src="images/featured.jpg" title="La Cour" >}}

@@ -5,19 +5,15 @@ featured_image: "images/featured.jpg"
 type: page
 ---
 
+<br>
+
 <center>
 Forme, couleur, matière et lumière sont indissociables.
 </center>
 
 <br>
 
-> ---
-
-<br>
-
-<center>
-J'explore les relations entre la ligne, la surface, le fond, la forme et la couleur.
-</center>
+> J'explore les relations entre la ligne, la surface, le fond, la forme et la couleur.
 
 > Les artistes que j'apprécie particulièrement sont :
 
@@ -33,6 +29,8 @@ J'explore les relations entre la ligne, la surface, le fond, la forme et la coul
 
 <br>
 
-<!-- <a href="/contact"><i class="fa fa-envelope"></i> Entrer en contact</i></a> -->
-
-[Entrer en contact](/contact)
+> <a href="/contact" style="color: white;">
+<button class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-gray bg-animate bg-black" style="cursor: pointer;">
+Envoyer un message
+</button>
+</a>
