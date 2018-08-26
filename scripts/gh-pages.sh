@@ -30,8 +30,8 @@ hugo # -d public
 
 cd public || exit 1
 
-# HitHub pages custom domain
-echo michel.frichet.org >> CNAME
+# GitHub pages custom domain
+#echo michel.frichet.org >> CNAME
 
 echo "Updating gh-pages branch"
 git add --all && git commit -m "Publishing to gh-pages (gh-pages.sh)"
