@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pontoise on Michel Frichet</title>
+    <link>//frichet.github.io/michel/tags/pontoise/</link>
+    <description>Recent content in Pontoise on Michel Frichet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//frichet.github.io/michel/tags/pontoise/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Œuvres récentes</title>
+      <link>//frichet.github.io/michel/collection/oeuvres-recentes/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/collection/oeuvres-recentes/</guid>
+      <description>  Balades    Les Toits à Pontoise    Les Toits     Lucky    14 Juillet    Victor   </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Michel Frichet</title>
+    <link>//frichet.github.io/michel/tags/</link>
+    <description>Recent content in Tags on Michel Frichet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 01 Jan 1990 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//frichet.github.io/michel/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aquarelle</title>
+      <link>//frichet.github.io/michel/tags/aquarelle/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/tags/aquarelle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conflans</title>
+      <link>//frichet.github.io/michel/tags/conflans/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/tags/conflans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hauterive</title>
+      <link>//frichet.github.io/michel/tags/hauterive/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/tags/hauterive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuchâtel</title>
+      <link>//frichet.github.io/michel/tags/neuch%C3%A2tel/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/tags/neuch%C3%A2tel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pontoise</title>
+      <link>//frichet.github.io/michel/tags/pontoise/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/tags/pontoise/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

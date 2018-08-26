@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neuchâtel on Michel Frichet</title>
+    <link>//frichet.github.io/michel/tags/neuch%C3%A2tel/</link>
+    <description>Recent content in Neuchâtel on Michel Frichet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 01 Jan 1990 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//frichet.github.io/michel/tags/neuch%C3%A2tel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aquarelles des années 90</title>
+      <link>//frichet.github.io/michel/collection/aquarelles-des-annees-90/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/collection/aquarelles-des-annees-90/</guid>
+      <description>  Lac de Neuchâtel    La Tène    Le Manoir, route à Hauterive    Vignes à Hauterive    </description>
+    </item>
+    
+  </channel>
+</rss>

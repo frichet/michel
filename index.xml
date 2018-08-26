@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michel Frichet</title>
+    <link>//frichet.github.io/michel/</link>
+    <description>Recent content on Michel Frichet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//frichet.github.io/michel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delacour</title>
+      <link>//frichet.github.io/michel/projet/delacour/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/projet/delacour/</guid>
+      <description>  Delacour    En construction&amp;hellip;
+ </description>
+    </item>
+    
+    <item>
+      <title>Le tableau du mois</title>
+      <link>//frichet.github.io/michel/le-tableau-du-mois/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/le-tableau-du-mois/</guid>
+      <description>
+ La Cour   </description>
+    </item>
+    
+    <item>
+      <title>Œuvres récentes</title>
+      <link>//frichet.github.io/michel/collection/oeuvres-recentes/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/collection/oeuvres-recentes/</guid>
+      <description>  Balades    Les Toits à Pontoise    Les Toits     Lucky    14 Juillet    Victor   </description>
+    </item>
+    
+    <item>
+      <title>Période figurative</title>
+      <link>//frichet.github.io/michel/collection/periode-figurative/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/collection/periode-figurative/</guid>
+      <description>  Le Bijou Bar à Conflans    Les Étannets   </description>
+    </item>
+    
+    <item>
+      <title>Aquarelles des années 90</title>
+      <link>//frichet.github.io/michel/collection/aquarelles-des-annees-90/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/collection/aquarelles-des-annees-90/</guid>
+      <description>  Lac de Neuchâtel    La Tène    Le Manoir, route à Hauterive    Vignes à Hauterive    </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>//frichet.github.io/michel/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//frichet.github.io/michel/contact/</guid>
+      <description>
+Numéro de téléphone 06 31 59 74 26  Adresse électronique michel@frichet.org  Adresse postale 39 rue Lecharpentier, 95300 Pontoise  
+Votre nom Adresse électronique Une adresse électronique est requise.  Message   </description>
+    </item>
+    
+    <item>
+      <title>À propos</title>
+      <link>//frichet.github.io/michel/a-propos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//frichet.github.io/michel/a-propos/</guid>
+      <description>
+ Forme, couleur, matière et lumière sont indissociables. 
+
+ J&amp;rsquo;explore les relations entre la ligne, la surface, le fond, la forme et la couleur.
+Les artistes que j&amp;rsquo;apprécie particulièrement sont :
+ Maria Héléna Da Silva Serge Poliakoff Nicolas De Staël Jacques Villon Sonia et Robert Delaunay, et bien d&amp;rsquo;autres&amp;hellip;   
+ Michel Frichet   
+ Envoyer un message  
+ </description>
+    </item>
+    
+  </channel>
+</rss>

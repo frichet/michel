@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projets on Michel Frichet</title>
+    <link>//frichet.github.io/michel/projet/</link>
+    <description>Recent content in Projets on Michel Frichet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//frichet.github.io/michel/projet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delacour</title>
+      <link>//frichet.github.io/michel/projet/delacour/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>//frichet.github.io/michel/projet/delacour/</guid>
+      <description>  Delacour    En construction&amp;hellip;
+ </description>
+    </item>
+    
+  </channel>
+</rss>
