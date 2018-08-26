@@ -1,4 +1,4 @@
-baseURL = "//michel.frichet.org"
+baseURL = "//frichet.github.io/michel"
 languageCode = "fr-fr"
 title = "Michel Frichet"
 theme = "ananke"
